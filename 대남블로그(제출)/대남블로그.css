@@ -1,0 +1,185 @@
+body {
+  background-color: #b5a789;
+  font-family:      Georgia, Times, serif;
+  font-size:        small;
+  margin:           20px;
+  position: absolute;
+}
+
+
+
+header.top{
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+  height: 200px;
+}
+
+
+
+
+header img#술의명언,
+header img#소주한잔,
+header img#술,
+header img#술이사람을마심,
+header img#술취함,
+ {
+  float: left;
+  position: absolute;
+}
+
+header img#술한잔하는날{
+  float: right;
+  position: absolute;
+}
+
+
+
+
+header {
+  background-color: white;
+  margin-left:     50px;
+  margin-right:    50px;
+  height:           70px;
+}
+
+
+
+section#승수지훈 h1 {
+  font-family:serif;
+  font-size:        170%;
+  color:            black;
+  padding-top: 20px;
+  color:#8A4B08;
+}
+h1.환영{
+  padding-left: 90px;
+}
+h1.소개 {
+  padding-left: 150px;
+}
+
+
+
+
+#tableContainer{
+  display: table;
+  border-spacing: 10px;
+}
+#tableRow{
+  display:table-row;
+}
+
+
+
+
+section#메뉴판{
+  display: table-cell;
+  width: 20%;
+  padding: 15px;
+  vertical-align: top;
+}
+
+section#메뉴판 h1{
+  font-family:serif;
+  font-size:        170%;
+  color:            black;
+  padding-left: 100px;
+  color:#8A4B08;
+}
+
+
+
+section#메뉴판, section#승수지훈{
+  font-family:sans-serif;
+  display: table-cell;
+  background-color: white;
+  font-size:        120%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+
+
+video{
+  padding-left: 50px;
+}
+
+
+
+
+
+aside {
+  font-family:sans-serif;
+  display: table-cell;
+  background:       bottom right;
+  background-color: white;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+
+
+footer {
+  font-family:sans-serif;
+  background-color: white;
+  color:            black;
+  text-align:       center;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+
+
+
+a:link {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+
+
+
+nav{
+  background-color: white;
+  margin: 10px 10px 0px 10px;
+}
+
+nav ul{
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 5px 5px 0px;
+}
+
+nav ul li{
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link,nav ul li a:visited{
+  color:#954b4b;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+nav ul li.selected{
+  background-color: #c8b99c;
+}
+
+
+
+p.소개{
+  font-style: normal;
+  padding-left: 30px;
+}
+
+p.리뷰{
+  padding-left: 45px;
+}
